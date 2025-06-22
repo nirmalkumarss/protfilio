@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Navigation</title>
+    <link rel="stylesheet" href="style.css">
+
+   
+</head>
+<body>
+    <button class="menu-button" id="menuButton" aria-label="Toggle menu">≡</button>
+    <nav class="menu" id="menu">
+        <button class="back-button" id="backButton"> Back</button>
+        <a href="#about" class="menu-link">About</a>
+        <a href="#skills" class="menu-link">Skills</a>
+        <a href="#projects" class="menu-link">Projects</a>
+        <a href="#contact" class="menu-link">Contact</a>
+    </nav>
+    <section class="hero-section">
+        <h1>Hi, I'm Nirmal Kumar </h1>
+        <div class="section-buttons">
+           
+        </div>
+        <div class="scroll-indicator">↓ Scroll Down ↓</div>
+    </section>
+    <section id="about" class="about-section">
+
+    <div class="about-container">
+        <div class="about-photo-background">
+            <div class="about-photo-wrapper">
+                <img class="about-photo" src="images/photo2.jpg" alt="Profile Photo">
+            </div>
+        </div>
+        <h2 class="fade-in">About Me</h2>
+        <p class="slide-in about-text">Hi, I'm Nirmal Kumar, a passionate computer science student with a keen interest in web development and programming. I enjoy solving problems, building innovative projects, and continuously learning new technologies to enhance my skills.</p>
+    </div>
+</section>
+<section id="skills" class="skill-section">
+        
+        <div class="skills-container">
+            <h2 class ="myskill">My Skills</h2>
+            <div class="skills-row">
+                <div class="skill" style="margin-left:-15px"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML"></div>
+                <div class="skill"style="margin-left:-30px"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS"></div>
+                <div class="skill" style="margin-left:-10px"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript"></div>
+            </div>
+            <div class="skills-row">
+                <div class="skill"><img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C++"></div>
+                <div class="skill"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java"></div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+      <div class="skills-container">
+        <h2 class="section-title">Project</h2>
+        <div class="project-slider">
+            <div class="project-slide active">
+                <img src="images/img1.jpg" alt="Project Image 1" class="project-image">
+            </div>
+            <div class="project-slide">
+                <img src="images/img2.jpg" alt="Project Image 2" class="project-image">
+            </div>
+            <div class="project-slide">
+                <img src="images/img3.jpg" alt="Project Image 3" class="project-image">
+            </div>
+            <button class="prev-btn">&#10094;</button>
+            <button class="next-btn">&#10095;</button>
+        </div>
+        <div class="project-description">
+            <h3 class="project-title">Equipment Tracking System</h3>
+            <p class="description">An advanced tracking system designed to optimize equipment management in colleges, ensuring seamless operations through:</p>
+            <ul class="project-features">
+                <li><strong>Instant Search:</strong> Locate equipment swiftly via unique tag numbers.</li>
+                <li><strong>Live Status Updates:</strong> Keep track of real-time availability.</li>
+                <li><strong>Maintenance Logs:</strong> Maintain detailed repair and usage history.</li>
+                <li><strong>Role-Based Access:</strong> Secure system permissions for staff and lab supervisors.</li>
+            </ul>
+            <p class="award">🏆 Winner of the College Hackathon</p>
+        </div>
+      </div>
+</section>
+<section id="contact" class="contact-section">
+    <div class="skills-container">
+        <h2>Let's Connect</h2>
+        
+        <div class="contact-form">
+            <h3>Send a Message</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        
+        <p class="reach-out-text">Reach out to me through any of the platforms below:</p>
+        <div class="contact-icons">
+            <a href="mailto:nirmalkumarshanmugam2006@gmail.com" class="contact-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="contact-logo">
+            </a>
+            <a href="www.linkedin.com/in/nirmal-kumar-s-s-2b360a359" class="contact-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="contact-logo">
+            </a>
+            <a href="https://github.com/nirmalkumarss" class="contact-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="contact-logo">
+            </a>
+            <a href="https://wa.me/9345318370" class="contact-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="contact-logo">
+            </a>
+        </div>
+    </div>
+</section>
+    <script src="script.js"></script>
+
+</body>
+</html>
